@@ -1,0 +1,31 @@
+@use '../helpers/variables'as *;
+@use '../helpers/mixins'as *;
+@use '../base/reset'as *;
+
+.bar {
+    height: 23px;
+    border-radius: 15px;
+    background-color: $veryDarkBlue;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+
+    &--inside {
+        height: 18px;
+        background: $barGradient;
+        width: 75%;
+        justify-content: flex-end;
+    }
+
+    &--margin {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    &__circle {
+        height: 14px;
+        width: 14px;
+        background: $paleBlue;
+        border-radius: 50%;
+    }
+}

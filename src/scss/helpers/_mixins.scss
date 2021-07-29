@@ -1,0 +1,13 @@
+@use "./variables"as *;
+
+//https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/
+@mixin breakmedia($breakpoint) {
+
+    @if map-has-key($breakpoints, $breakpoint) {
+
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+
+    }
+}

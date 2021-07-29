@@ -1,0 +1,154 @@
+@use '../helpers/variables'as *;
+@use '../helpers/mixins'as *;
+@use '../base/reset'as *;
+@use '../components/bar' as *;
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    &--darkBlue {
+        background-color: $darkBlue;
+    }
+
+    &--paleBlue {
+        background-color: $paleBlue;
+    }
+
+    &--rounded {
+        border-radius: 10px 100px 10px 10px;
+    }
+
+    &__fylo {
+        padding: 40px 90px 40px 40px;
+        margin-bottom: 20px;
+        width: 320px;
+        flex: 0 0 auto;
+
+        @include  breakmedia('tablet'){
+            margin-bottom: 0;
+        }
+    }
+
+    &__logo {
+        padding-bottom: 35px;
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        background: #0c122c;
+        border: solid #0c122c;
+        border-radius: 9px;
+        transform: scale(1.1);
+        width: auto;
+        height: auto;
+        padding: 7px 9px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon:active {
+        outline-offset: 2px;
+        outline: 2px dashed $paleBlue;
+    }
+
+    &__icon:hover {
+        box-shadow: 0px 0px 4px $paleBlue;
+        transition: 0.2s;
+        cursor: pointer;
+        animation: shake 0.5s;
+    }
+
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg);}
+        25% { transform: translate(0px, 2px) rotate(1deg);}
+        50% { transform: translate(1px, 1px) rotate(0deg);}
+        75% { transform: translate(0px, 2px) rotate(1deg);}
+        100% { transform: translate(1px, 1px) rotate(0deg);}
+    }
+
+    &__icon svg {
+        transform: scale(1);
+    }
+
+    &__storage {
+        position: relative;
+        padding: 35px 28px 50px;
+
+        @include  breakmedia('tablet'){
+            padding: 35px 40px 35px;
+        }
+
+        &-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            @include  breakmedia('tablet'){
+                flex: 1;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    &__aside {
+        position: absolute;
+        bottom: 163px;
+        padding: 10px 20px;
+        align-self: center;
+
+        &-paragraph {
+            display: flex;
+            align-items: center;
+
+            & span {
+                display: block;
+                padding-left: 15px;
+            }
+        }
+
+        @include  breakmedia('tablet'){
+            bottom: 435px;
+            align-self: flex-end;
+            margin-right: 40px;
+        }
+
+        &:before {
+            display: none;
+            content: "";
+            height: 0;
+            width: 0px;
+            border-left: 21px solid transparent;
+            border-right: 19px solid $paleBlue;
+            border-bottom: 20px solid transparent;
+            border-top: 20px solid $paleBlue;
+            position: absolute;
+            bottom: -23px;
+            right: 0px;
+
+            @include  breakmedia('tablet'){
+                display: block;
+            }
+        }
+    }
+
+}
+
+.data {
+    &__lower-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        text-align: center;
+
+        @include  breakmedia('tablet'){
+            text-align: left;
+        }
+    }
+}

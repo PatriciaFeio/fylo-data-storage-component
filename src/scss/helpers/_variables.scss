@@ -1,0 +1,19 @@
+//color
+
+//gradient
+$barGradient: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+
+$paleBlue: hsl(243, 100%, 93%);
+$grayishBlue: hsl(229, 7%, 55%);
+$darkBlue: hsl(228, 56%, 26%);
+$veryDarkBlue: hsl(229, 57%, 11%);
+$rose: hsl(335, 100%, 65%);
+
+
+//breakpoints
+$breakpoints: (
+    'phone': 42em,
+    'tablet': 55em,
+    'desktop': 70em,
+    'largeScreen': 85em
+    ) !default;

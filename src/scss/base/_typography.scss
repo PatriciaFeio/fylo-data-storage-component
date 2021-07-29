@@ -1,0 +1,33 @@
+@use "../helpers/variables"as *;
+@use "../helpers/mixins"as *;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: $paleBlue;
+}
+
+.box__aside-paragraph {
+    color: $veryDarkBlue;
+    font-size: 2.25rem;
+    font-weight: 700;
+
+    & span {
+        font-size: 0.8rem;
+        color: $grayishBlue;
+        letter-spacing: 1px;
+    }
+}
+
+.data {
+    &__info {
+        letter-spacing: 0.5px;
+    }
+
+    &__info span,
+    &__lower-info {
+        font-weight: 700;
+    }
+}
