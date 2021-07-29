@@ -24,6 +24,11 @@ Desktop (1440px)
 
 ![](./project-guides/design/desktop-1440-screenshot.png)
 
+### Links
+
+- Solution URL: [my solution](https://www.frontendmentor.io/solutions/fylo-data-storage-component-using-flexbox-and-sass-vjvXWWlYc)
+- Live Site URL: [Fylo data storage component](https://fylo-data-storage-comp.vercel.app/)
+
 ### Built with
 
 - Semantic HTML5 markup
