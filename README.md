@@ -16,9 +16,9 @@ The users should be able to:
 
 ### Screenshot
 
-![](design/mobile-375-screenshot.png)
+![](./project-guides/design/mobile-375-screenshot.png)
 
-![](design/desktop-1440-screenshot.png)
+![](./project-guides/design/desktop-1440-screenshot.png)
 
 # Frontend Mentor - Fylo data storage component
 
