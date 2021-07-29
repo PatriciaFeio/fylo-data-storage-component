@@ -97,7 +97,7 @@
 
     &__aside {
         position: absolute;
-        bottom: 163px;
+        bottom: 225px;
         padding: 10px 20px;
         align-self: center;
 
@@ -112,7 +112,7 @@
         }
 
         @include  breakmedia('tablet'){
-            bottom: 435px;
+            bottom: 508px;
             align-self: flex-end;
             margin-right: 40px;
         }

@@ -277,7 +277,7 @@ body {
 }
 .box__aside {
   position: absolute;
-  bottom: 163px;
+  bottom: 225px;
   padding: 10px 20px;
   align-self: center;
 }
@@ -291,7 +291,7 @@ body {
 }
 @media (min-width: 55em) {
   .box__aside {
-    bottom: 435px;
+    bottom: 508px;
     align-self: flex-end;
     margin-right: 40px;
   }
