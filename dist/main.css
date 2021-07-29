@@ -198,14 +198,20 @@ body {
   border-radius: 10px 100px 10px 10px;
 }
 .box__fylo {
-  padding: 40px 90px 40px 40px;
+  padding: 40px 60px 40px 40px;
   margin-bottom: 20px;
-  width: 320px;
+  max-width: 320px;
   flex: 0 0 auto;
+}
+@media (min-width: 23.1em) {
+  .box__fylo {
+    padding-right: 90px;
+  }
 }
 @media (min-width: 55em) {
   .box__fylo {
     margin-bottom: 0;
+    flex: 1;
   }
 }
 .box__logo {
@@ -355,7 +361,7 @@ body {
   background-color: #0c122c;
   min-height: 100vh;
   width: 100%;
-  min-width: 375px;
+  min-width: 320px;
   overflow: hidden;
   background-image: url("/src/images/bg-mobile.svg");
   background-size: cover;
