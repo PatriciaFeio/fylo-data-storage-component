@@ -77,7 +77,6 @@
     }
 
     &__storage {
-        position: relative;
         padding: 35px 28px 50px;
 
         @include  breakmedia('tablet'){
@@ -87,6 +86,7 @@
         &-wrapper {
             display: flex;
             flex-direction: column;
+            position: relative;
 
             @include  breakmedia('tablet'){
                 flex: 1;
@@ -97,7 +97,7 @@
 
     &__aside {
         position: absolute;
-        bottom: 225px;
+        bottom: -38px;
         padding: 10px 20px;
         align-self: center;
 
@@ -112,7 +112,7 @@
         }
 
         @include  breakmedia('tablet'){
-            bottom: 508px;
+            bottom: 143px;
             align-self: flex-end;
             margin-right: 40px;
         }

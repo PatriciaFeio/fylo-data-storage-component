@@ -257,7 +257,6 @@ body {
   transform: scale(1);
 }
 .box__storage {
-  position: relative;
   padding: 35px 28px 50px;
 }
 @media (min-width: 55em) {
@@ -268,6 +267,7 @@ body {
 .box__storage-wrapper {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 @media (min-width: 55em) {
   .box__storage-wrapper {
@@ -277,7 +277,7 @@ body {
 }
 .box__aside {
   position: absolute;
-  bottom: 225px;
+  bottom: -38px;
   padding: 10px 20px;
   align-self: center;
 }
@@ -291,7 +291,7 @@ body {
 }
 @media (min-width: 55em) {
   .box__aside {
-    bottom: 508px;
+    bottom: 143px;
     align-self: flex-end;
     margin-right: 40px;
   }
