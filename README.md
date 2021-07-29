@@ -14,12 +14,24 @@ The users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshots
+
+Mobile (375px)
 
 ![](./project-guides/design/mobile-375-screenshot.png)
 
+Desktop (1440px)
+
 ![](./project-guides/design/desktop-1440-screenshot.png)
 
-# Frontend Mentor - Fylo data storage component
+### Built with
 
-![Design preview for the Fylo data storage component coding challenge](./project-guides/design/desktop-preview.jpg)
+- Semantic HTML5 markup
+- Sass
+- Flexbox
+- Mobile-first workflow
+
+## Author
+
+- Website - [Patrícia Feio](https://patriciafeio.github.io/)
+- Frontend Mentor - [@PatriciaFeio](https://www.frontendmentor.io/profile/PatriciaFeio)
