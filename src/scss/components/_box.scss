@@ -146,6 +146,8 @@
 
     &__info {
         text-align: center;
+        font-size: 14px;
+        font-weight: 400;
 
         @include  breakmedia('tablet'){
             text-align: left;
