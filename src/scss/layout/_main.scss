@@ -5,7 +5,7 @@
 @use '../components/box' as *;
 
 .main {
-    height: 100vh;
+    height: calc( 100vh + 140px );
     width: 100%;
     display: flex;
     justify-content: center;
